@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lasuillard/freerdp-novnc/main.svg)](https://results.pre-commit.ci/latest/github/lasuillard/freerdp-novnc/main)
-![GitHub Release](https://img.shields.io/github/v/release/lasuillard/freerdp-novnc)
+[![Docker Image Version](https://img.shields.io/docker/v/lasuillard/freerdp-novnc?sort=semver)](https://hub.docker.com/r/lasuillard/freerdp-novnc)
 
 Docker image for FreeRDP client with noVNC.
 
