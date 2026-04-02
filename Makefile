@@ -19,8 +19,11 @@ help: Makefile  ## Show help
 # =============================================================================
 install:  ## Install deps
 	git submodule update --init --recursive
-	pre-commit install --install-hooks
 .PHONY: install
+
+init:  ## Initialize the project
+	pre-commit install --install-hooks
+.PHONY: init
 
 update:  ## Update deps and tools
 	pre-commit autoupdate
