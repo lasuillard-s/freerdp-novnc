@@ -1,6 +1,6 @@
 {
   "name": "lasuillard-s/freerdp-novnc",
-  "image": "mcr.microsoft.com/devcontainers/base:1-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
   "features": {
     "ghcr.io/devcontainers-extra/features/pre-commit:2": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
