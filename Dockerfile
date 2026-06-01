@@ -2,7 +2,7 @@ FROM debian:trixie-slim
 
 RUN apt-get update && apt-get install -y \
     fluxbox \
-    freerdp2-x11 \
+    freerdp3-x11 \
     novnc \
     supervisor \
     x11vnc \
