@@ -17,7 +17,13 @@
       in
       {
         packages = {
-          inherit (pkgs) pre-commit just shfmt shellcheck freerdp;
+          inherit (pkgs)
+            pre-commit
+            just
+            shfmt
+            shellcheck
+            freerdp
+            ;
         };
 
         devShells.default = pkgs.mkShell {
