@@ -8,7 +8,7 @@ Please report issues in our [GitHub repository](https://github.com/lasuillard/fr
 
 ## 🏗️ Project overview
 
-This project provide a Docker image serving FreeRDP over noVNC on a virtual X display, accessible from a web browser.
+This project provides a Docker image serving FreeRDP over noVNC on a virtual X display, accessible from a web browser.
 
 ### 🛠️ Tech stack
 
