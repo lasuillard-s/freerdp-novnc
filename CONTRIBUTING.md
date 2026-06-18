@@ -19,7 +19,7 @@ This project uses the following tech stack:
 - [x11vnc](https://github.com/LibVNC/x11vnc), [websockify](https://github.com/novnc/websockify), [Xvfb](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml) and [noVNC](https://novnc.com) for browser-based VNC access
 - [Fluxbox](http://fluxbox.org) for window management
 - [Supervisor](http://supervisord.org) for process management
-- [shfmt](https://github.com/mvdan/sh) and [shellcheck](https://github.com/koalaman/shellcheck) for linting shell scripts, and [BATS](https://github.com/bats-core/bats-core) for testing shell scripts
+- [shfmt](https://github.com/mvdan/sh) and [shellcheck](https://github.com/koalaman/shellcheck) for formatting and linting shell scripts, and [BATS](https://github.com/bats-core/bats-core) for running tests
 
 ### 📂 Key directory structure
 
