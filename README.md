@@ -3,13 +3,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker Image Version](https://img.shields.io/docker/v/lasuillard/freerdp-novnc?sort=semver)](https://hub.docker.com/r/lasuillard/freerdp-novnc)
 
-Docker image for FreeRDP client with noVNC.
+Docker image for FreeRDP client through noVNC.
 
 ![Demo](docs/demo.png)
 
 ## ✨ Features
 
-I built this image to provide access to a remote server through noVNC for simple use cases. It is generally recommended to use existing RDP clients for more advanced scenarios.
+> [!NOTE]
+> It is recommended to use existing RDP clients for more advanced scenarios. This image is intended for simple use cases.
 
 - **Web-based UI**: Access to a remote server through FreeRDP over the web UI (noVNC)
 
