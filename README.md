@@ -11,7 +11,7 @@ Docker image for FreeRDP client with noVNC.
 
 I built this image to provide access to a remote server through noVNC for simple use cases. It is generally recommended to use existing RDP clients for more advanced scenarios.
 
-- Configure access to a remote server through FreeRDP over the web UI (noVNC)
+- **Web-based UI**: Access to a remote server through FreeRDP over the web UI (noVNC)
 
 ## 🚀 How to use
 
