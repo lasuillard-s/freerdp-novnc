@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-exec supervisord -c /app/supervisord.conf
+exec supervisord --configuration /app/supervisord.conf
