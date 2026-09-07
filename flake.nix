@@ -17,17 +17,21 @@
       in
       {
         packages = {
+          # Tools used in CI/CD pipelines
           inherit (pkgs)
+            shfmt
+            shellcheck
+            ;
+        };
+
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
             pre-commit
             just
             shfmt
             shellcheck
             freerdp
-            ;
-        };
-
-        devShells.default = pkgs.mkShell {
-          packages = builtins.attrValues self.packages.${system};
+          ];
           shellHook = ''
             pre-commit install
           '';
